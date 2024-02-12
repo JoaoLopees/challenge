@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Desafio 1</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <main class="main__container"> 
+        <img src="img/Logo.png" alt="logo-da-alura">
+        <div class="container__texto">
+            <div class="input">
+                <textarea class="input__texto" id="input__texto" placeholder="Digite seu texto"></textarea>
+            </div>
+
+            <div id="output" class="output">
+                <img src="img/High quality products 1 1.png" alt="foto-de-um-menino">
+                <h2>Nenhuma mensagem<br>encontrada</h2>
+                <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+            </div>
+        </div>
+
+        <div class="button">
+            <div class="container__button">
+                <p>&#x26A0; Apenas letras minúsculas e sem acento.</p>
+                <button onclick="criptografar()" class="button__criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="button__descriptografar">Descriptografar</button>
+            </div>
+        </div>          
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por João Pedro</p>
+    </footer>
+
+    <script src="criptografia.js"></script>
+</body>
+</html>
